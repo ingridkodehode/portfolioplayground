@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Oxygen:wght@300;400;700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: "Oxygen", sans-serif;
+  color: #672b67;
+  background-color: #f9dbbd;
+  background-image: url("/images/grainy.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: #382440 solid 1em;
+}
+
+.landing-page {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+  height: 34.5em;
+}
+
+.hero {
+  margin-top: 4em;
+  width: 100vw;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.hero-title {
+  font-family: led;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  margin: 0.2em;
+  margin-bottom: 0;
+  font-size: 100px;
+  text-align: right;
+  color: #98013e;
+  text-shadow: 0px 0px 43px #e60182;
+}
+
+.hero-subtext {
+  font-family: led;
+  font-size: 1em;
+  font-weight: 300;
+  padding-top: 0;
+  margin-top: 0;
+  margin: 0.2em;
+  margin-bottom: 0;
+  letter-spacing: 0.2em;
+  font-size: 100px;
+  text-align: right;
+  color: #98013e;
+  text-shadow: 0px 0px 43px #e60182;
+}
+
+h3 {
+  font-family: made;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.7em;
+  font-size: 30px;
+  margin: 1em;
+}
+
+.enter {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2em;
+  margin-top: 0;
+  font-family: made;
+  cursor: pointer;
+  padding: 2vh 5vh;
+  color: #98013e;
+  text-shadow: 0px 0px 10px #e60182;
+  background: #f063c7;
+  border: none;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 10vh;
+  width: 100%;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.enter:hover {
+  color: #98013e;
+  text-shadow: 0px 0px 10px #e60182;
+  background-color: transparent;
+  border: none;
+}
+
+.tabcontent {
+  background-color: #fbd6fd;
+  width: 60em;
+  height: 20em;
+  box-sizing: content-box;
+  border-radius: 0px 300px 0px 0px;
+  padding-right: 2em;
+}
+
+.pfp {
+  position: absolute;
+  height: 30em;
+  border-radius: 0px 0px 0px 154px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  src: url("Ledlight-qXZx.otf");
+  font-family: led;
+}
+
+@font-face {
+  src: url("MADE\ Canvas\ Regular\ PERSONAL\ USE.otf");
+  font-family: made;
+}
+
+#spin {
+  margin-bottom: 0;
+  color: #98013e;
+}
+
+#spin:after {
+  content: "Ingrid";
+  animation: spin 10s infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "Ingrid";
+  }
+  20% {
+    content: "immortal maybe";
+  }
+  40% {
+    content: "a backend dev";
+  }
+  60% {
+    content: "Ghoul";
+  }
+  80% {
+    content: "so sleepy";
+  }
+}
+
+p {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 2em;
+  margin-right: 4em;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #fbd6fd;
+  width: 61.5em;
+  padding-right: 2em;
+}
+
+.tab button {
+  background-color: transparent;
+  color: #f063c7;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button.active {
+  color: #98013e;
+  text-shadow: 0px 0px 10px #e60182;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+i {
+  font-size: 10px;
+  margin-right: 8em;
+}
+
+.divider {
+  border-top: 3px solid #ba5fbf;
+  border-bottom: none;
+  width: 50em;
+}
